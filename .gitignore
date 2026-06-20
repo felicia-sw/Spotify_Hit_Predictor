@@ -11,6 +11,10 @@ env/
 # OS / editor
 .DS_Store
 .idea/
+.vscode/
+
+# Local-only notes (not for the public repo)
+AGENTS.md
 
 # Node (only needed if regenerating the .docx)
 node_modules/
