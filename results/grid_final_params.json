@@ -1,0 +1,38 @@
+{
+ "Analog (1960-89)|LogReg": {
+  "m__C": 1,
+  "m__penalty": "l1"
+ },
+ "Analog (1960-89)|RandomForest": {
+  "max_depth": 20,
+  "n_estimators": 300
+ },
+ "Analog (1960-89)|KNN": {
+  "m__n_neighbors": 75,
+  "m__weights": "distance"
+ },
+ "CD/Digital (1990-2009)|LogReg": {
+  "m__C": 100,
+  "m__penalty": "l2"
+ },
+ "CD/Digital (1990-2009)|RandomForest": {
+  "max_depth": 20,
+  "n_estimators": 300
+ },
+ "CD/Digital (1990-2009)|KNN": {
+  "m__n_neighbors": 45,
+  "m__weights": "distance"
+ },
+ "Streaming (2010s)|LogReg": {
+  "m__C": 100,
+  "m__penalty": "l2"
+ },
+ "Streaming (2010s)|RandomForest": {
+  "max_depth": 20,
+  "n_estimators": 300
+ },
+ "Streaming (2010s)|KNN": {
+  "m__n_neighbors": 75,
+  "m__weights": "distance"
+ }
+}

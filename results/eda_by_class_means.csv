@@ -1,0 +1,16 @@
+,flop_mean,hit_mean,hit_minus_flop
+danceability,0.478,0.601,0.123
+energy,0.535,0.624,0.09
+key,5.179,5.248,0.07
+loudness,-11.74,-8.702,3.038
+mode,0.657,0.73,0.073
+speechiness,0.076,0.069,-0.007
+acousticness,0.448,0.281,-0.167
+instrumentalness,0.278,0.031,-0.247
+liveness,0.21,0.193,-0.018
+valence,0.475,0.61,0.134
+tempo,118.392,120.294,1.902
+duration_ms,243663.097,226097.857,-17565.239
+time_signature,3.85,3.938,0.089
+chorus_hit,40.983,39.225,-1.759
+sections,10.768,10.184,-0.585
