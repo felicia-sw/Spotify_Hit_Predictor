@@ -1,0 +1,7 @@
+era,comparison,dAUC,ci_lo,ci_hi,significant
+Analog (1960-89),RF-LR,0.0625,0.0588,0.0663,significant
+Analog (1960-89),RF-KNN,0.0368,0.0334,0.0402,significant
+CD/Digital (1990-2009),RF-LR,0.0432,0.0388,0.0477,significant
+CD/Digital (1990-2009),RF-KNN,0.0277,0.0236,0.0317,significant
+Streaming (2010s),RF-LR,0.0481,0.0408,0.0554,significant
+Streaming (2010s),RF-KNN,0.0485,0.0414,0.0555,significant

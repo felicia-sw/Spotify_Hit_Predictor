@@ -34,7 +34,9 @@ and compares **feature importance (SHAP)** across eras to show *how the drivers 
 | `notebooks/01_eda.ipynb` | Exploratory data analysis, rendered inline. |
 | `notebooks/02_modeling_and_shap.ipynb` | Grid search, model comparison, and SHAP, rendered inline. |
 | `figures/` | EDA figures (`eda*`) and result figures (`fig*`). |
-| `results/` | `grid_final.csv` (tuned hyperparameters + scores), SHAP/importance/coefficient tables, EDA stats. |
+| `results/` | `grid_final.csv` (tuned hyperparameters + scores), SHAP/importance/coefficient tables, EDA stats, and robustness tables (multi-seed SHAP, bootstrap model comparison, sensitivity, permutation importance). |
+| `robustness/` | Scripts for the rigor analyses: multi-seed SHAP confidence intervals, out-of-fold model comparison, sensitivity checks, and permutation importance. |
+| `Robustness_and_Validation_Findings.md` | Paste-ready robustness write-up (draft text + tables) for the manuscript's §4.5. |
 
 ## Reproduce
 1. The dataset (six `dataset-of-*.csv`) is already in `spotify_data/`.
